@@ -25,6 +25,6 @@ router.get('/', function (ctx, next){
 
 const app = new Koa()
 
-app.use(router.route())
+app.use(router.routes())
 
 app.listen(4000)
